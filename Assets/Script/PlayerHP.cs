@@ -71,7 +71,6 @@ public class PlayerHP : MonoBehaviour {
 
         if (currentHP <= 0)
         {
-
             over = true;
             gameOver.SetActive(true);
             currentHP = 0;
