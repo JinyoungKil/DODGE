@@ -1,7 +1,7 @@
 ﻿using UnityEngine.EventSystems;
 using UnityEngine;
 
-public class dirPad : EventTrigger {
+public class DirPad : EventTrigger {
     private Vector2 startPosition;
     public bool dragging { get; private set; }
     private Vector2 currentPosition;

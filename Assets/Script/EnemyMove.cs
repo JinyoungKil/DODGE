@@ -18,6 +18,5 @@ public class EnemyMove : MonoBehaviour {
         Vector3 dir = diff.normalized;
 
         transform.Translate(dir * speed * Time.deltaTime);
-		
 	}
 }
